@@ -54,7 +54,7 @@ fun CustomDrawer(
         Spacer(modifier = Modifier.height(24.dp))
         //Logo
         Image(
-            painter = painterResource(id = R.drawable.logo),
+            painter = painterResource(id = R.drawable.logo1),
             contentDescription = "App Icon"
         )
         Spacer(modifier = Modifier.height(40.dp))

@@ -9,6 +9,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
@@ -80,8 +81,8 @@ fun AppTopBar(
                 onClick = { onThemeUpdate() }
             )
 
+            Spacer(modifier = Modifier.width(5.dp))
             IconButton(onClick = { /*TODO*/ }) {
-
                 Icon(
                     imageVector = Icons.Default.Person,
                     contentDescription = "Profile Picture"
